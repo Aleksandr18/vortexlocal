@@ -1,0 +1,24 @@
+/* btn */
+
+.mainBtn {
+  background-color: #E4000F;
+  border-radius: 5px;
+  max-width: 250px;
+  width: 100%;
+  font-size: 18px;
+  color: #fff !important;
+  padding: 14px;
+  border: 0;
+}
+
+button,
+button:before,
+button:focus {
+  outline: none;
+}
+
+input,
+input:before,
+input:focus {
+  outline: none;
+}

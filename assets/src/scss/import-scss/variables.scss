@@ -1,0 +1,107 @@
+/* + site */
+$time:0.5s;
+$opacity:0.8;
+/* - site */
+
+$white:#ffffff;
+$light-gray:#F4F4F4;
+$gray-100: #DDDDDD !default;
+$gray-200: #F9F9F9 !default;
+$footerColor: #0E1D28;
+$link: #006DFE;
+$white: #fff;
+$black: #000;
+$backgroundBtn: #1B7DFF;
+$body-color: #F2F2F2;
+$line: #006DFE;
+
+
+$gray-300:  rgb(233, 233, 233) !default;  // border
+$gray-400: #E4E4E4 !default;
+$gray-600: #8d8d8d !default; // secondary
+$gray-700: #8E8E8E;
+$gray-750: #7d7d7d !default;
+$gray-800: #626262 !default;
+//$gray-800: #3D4146 !default;
+//$gray-900: #1A1C1D !default;
+$black: #000000;
+$orange-active:#D17A39;
+$blue: #00a6ba;
+$dark-blue: #0190a1;
+$orange:  #F47B20 !default;
+$orange-light: #f3924a;
+$orange-hover: #F9B684;
+$red:#ff6060;
+$green: #34a35e;
+$gradient: linear-gradient(180deg, #F47B20 0%, #F05600 100%);
+
+/* + fonts */
+//$body-bg: #ededed !default;
+$body-color: $black;
+$font-size-base:0.875rem;
+//$line-height-base:1.5;
+$link-hover-color: $orange;
+$ff-bold: 'Magrit-Bold';
+$ff-light: 'Magrit-Regular';
+$primary:       $orange !default;
+$secondary:     $light-gray !default;
+$font-family-base: $ff-light;
+/* - fonts */
+
+/* + link */
+$link-color:$black;
+$link-hover-color:$orange;
+/* - link */
+$container-max-widths: (
+        sm: 575px,
+        md: 800px,
+        lg: 1024px,
+        xl: 1170px
+);
+/* + btn */
+$btn-padding-y:0.625rem;
+$btn-padding-x:1.5rem;
+$btn-font-family:$font-family-base;
+$btn-font-size:1rem;
+$btn-line-height:1.125rem;
+$btn-border-radius:30px;
+$btn-active-box-shadow:0;
+$btn-disabled-opacity:1;
+
+$btn-padding-y-sm:     0.375rem;
+$btn-padding-x-sm:     1.25rem;
+$btn-font-size-sm:     0.875rem;
+$btn-line-height-sm:   1rem;
+$btn-border-radius-sm: 30px;
+
+/* - btn */
+
+/* + input */
+$input-padding-y:0;
+$input-padding-x:1.25rem;
+$input-font-family:$font-family-base;
+$input-font-size:1rem;
+$input-height:2.5rem;
+$input-focus-box-shadow:0;
+$input-border-color:transparent;
+
+$input-placeholder-color:$black;
+$input-color:$black;
+$input-border-width:2px;
+$input-border-radius:30px;
+$input-focus-border-color:$black;
+$input-bg:$white;
+
+
+/* -input */
+
+/* + checkbox */
+//$custom-checkbox-indicator-border-radius:3px;
+//$custom-checkbox-indicator-icon-checked:  url("../img/check-black.svg");
+/* - checkbox */
+
+/* modal */
+//$modal-md:                          542px !default;
+//$modal-backdrop-bg:                 #222 !default;
+//$modal-backdrop-opacity:            .8 !default;
+/* - modal */
