@@ -1,0 +1,313 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+          crossorigin="anonymous">
+    <link rel="stylesheet" rel="preload" onload="this.rel='stylesheet'" as="style"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+          integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+          crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+          onload="this.rel='stylesheet'" as="style">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>vortex</title>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="headerContent">
+            <a href="/">
+                <img class="logo" src="assets/img/vortexLogo.jpg" alt="">
+            </a>
+
+            <div class="conte justify-content-sm-between align-items-center">
+                <a class="storeLink" href="/">Интернет-магазин</a>
+                <p class="text">Бесплатный звонок по России</p>
+                <a class="numCall" href="tel:+78002343696">8 800 234-36-96</a>
+
+                <button class="search magnifier">
+                    <input class="lupa" type="text">
+                </button>
+
+                <div class="lang">
+                    <button class="langTrans" type="button" placeholder="Перевести">Перевести</button>
+                    <button class="langTrans langRu" type="button" placeholder="RU">RU</button>
+                    <p>Яндекс.Переводчик</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="headerLink">
+        <div class="container">
+            <div class="headerBlocks burgerMenu">
+                <nav>
+                    <div class="menuToggle">
+                        <input class="burger" type="checkbox">
+                        <span class="burgerLine"></span>
+                        <span class="burgerLine"></span>
+                        <span class="burgerLine"></span>
+
+                        <ul class="menu">
+                            <li>
+                                <a class="links" href="/">Курсы</a>
+                            </li>
+                            <li>
+                                <a class="links" href="/">Новости</a>
+                            </li>
+                            <li>
+                                <a class="links" href="/">Вебинары</a>
+                            </li>
+                            <li>
+                                <a class="links" href="/">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <div class="sign">
+                    <h2 class="userName">
+                        Иванов С.П.
+                    </h2>
+                    <img class="userImg" src="/assets/img/userimg.png" alt="">
+                    <a class="signUser" href="/"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="intro">
+    <img class="fone" src="assets/img/fone.jpg" alt="">
+
+    <div class="mainContent">
+        <h1 class="introTitle">Корпоративный университет Vortex</h1>
+        <p class="introText">Эффективное обучение сотрудников по всем направлениям</p>
+        <button class="mainBtn">
+            Начать обучение
+        </button>
+    </div>
+
+</div>
+
+<div class="tutorial d-flex">
+    <div class="container">
+        <div class="tutorialBlock justify-content-between col-xl-12 d-flex">
+            <div class="tutorialInfo">
+                <h3 class="title tutorialTitle">
+                    Как это работает?
+                </h3>
+                <p class="text tutorialText">Для преуспевающего бизнеса и создания успешной команды менеджеров
+                    необходимы
+                    знания в области
+                    управления, навыки продаж, а так же знания о продукте, который вы продаете.
+                </p>
+                <p class="text tutorialText">
+                    Корпоративный университет Вортекс это комплекс полезных материалов, цель которых – познакомить Вас с
+                    опытом, навыками, знаниями специалистов нашей компании и делиться последними новостями.
+                </p>
+            </div>
+            <div class="tutorialImgParent circleVideo play">
+                <img class="tutotialImg" src="assets/img/tutorialImg.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="structure d-flex">
+    <div class="container containerStruct">
+        <div class="owl-structure owl-carousel">
+            <div class="contStruct justify-content-between col-xl-12 d-flex">
+                <div class="structureInfo">
+                    <h4 class="minTitle">Структура обучения</h4>
+                    <h3 class="title structureTitle noteAndPen">Учебные материалы</h3>
+                    <p class="text strucText">Учебные материалы разделены по темам, в завершении каждой темы
+                        опубликован тест для проверки освоения
+                        полученных знаний;
+                    </p>
+                </div>
+                <div class="structureImg">
+                    <img class="owlImg" src="assets/img/scructureImg.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="news d-flex">
+    <div class="container">
+        <h3 class="title newsT">Новости</h3>
+        <div class="newsCards">
+            <div class="newsCard">
+                <div class="newsCardImg">
+                    <a class="newsLink qwe" href="/">Пройти курс</a>
+                    <img class="newsImg" src="/assets/img/card1.jpg" alt="">
+                </div>
+
+                <div class="newsContent">
+                    <time class="newsTime">11.09.18</time>
+                    <h4 class="title newsTitle">Вышла новая линейка продукции для АПК</h4>
+                    <p class="text newsText">Для преуспевающего бизнеса и создания успешной команды менеджеров
+                        необходимы
+                        знания
+                        в
+                        области управления.</p>
+                </div>
+            </div>
+            <div class="newsCard">
+                <div class="newsCardImg">
+                    <a class="newsLink qwe" href="/">Пройти курс</a>
+                    <img class="newsImg" src="/assets/img/card2.jpg" alt="">
+                </div>
+
+                <div class="newsContent">
+                    <time class="newsTime">11.09.18</time>
+                    <h4 class="title newsTitle">Вышла новая линейка продукции для АПК</h4>
+                    <p class="text newsText">Для преуспевающего бизнеса и создания успешной команды менеджеров
+                        необходимы
+                        знания
+                        в
+                        области управления.</p>
+                </div>
+            </div>
+            <div class="newsCard">
+                <div class="newsCardImg">
+                    <a class="newsLink qwe" href="/">Пройти курс</a>
+                    <img class="newsImg" src="/assets/img/card3.jpg" alt="">
+                </div>
+
+                <div class="newsContent">
+                    <time class="newsTime">11.09.18</time>
+                    <h4 class="title newsTitle">Вышла новая линейка продукции для АПК</h4>
+                    <p class="text newsText">Для преуспевающего бизнеса и создания успешной команды менеджеров
+                        необходимы
+                        знания
+                        в
+                        области управления.</p>
+                </div>
+            </div>
+            <div class="newsCard">
+                <div class="newsCardImg">
+                    <a class="newsLink qwe" href="/">Пройти курс</a>
+                    <img class="newsImg" src="/assets/img/card4.jpg" alt="">
+                </div>
+
+                <div class="newsContent">
+                    <time class="newsTime">11.09.18</time>
+                    <h4 class="title newsTitle">Вышла новая линейка продукции для АПК</h4>
+                    <p class="text newsText">Для преуспевающего бизнеса и создания успешной команды менеджеров
+                        необходимы
+                        знания
+                        в
+                        области управления.</p>
+                </div>
+            </div>
+        </div>
+        <a class="newsLinkMore arrow" href="/">Читать больше</a>
+    </div>
+</div>
+
+<div class="addres d-flex">
+    <div class="container">
+        <div class="addresContent">
+            <div class="addresCity lineVert">
+                <h4 class="title addresTitle">Ижевск</h4>
+                <h5 class="addresPlace">Головной офис</h5>
+                <address>ул. Новосмирновская, 14</address>
+                <p class="addresContacts">
+                    8(800)234-36-96, +7(3412)77-27-28
+                    office@pk-vortex.ru</p>
+            </div>
+
+            <div class="addresCity lineVert">
+                <h4 class="title addresTitle">Новосибирск</h4>
+                <h5 class="addresPlace">Представительство</h5>
+                <address>ул. Дунаевского, 16</address>
+                <p class="addresContacts">
+                    +7(383)363-75-80, +7(913)456-36-56
+                    chernyshov@pk-vortex.ru</p>
+            </div>
+
+            <div class="addresCity">
+                <h4 class="title addresTitle">Краснодар</h4>
+                <h5 class="addresPlace">Представительство</h5>
+                <address>ул. Бородинская 150/11</address>
+                <p class="addresContacts">
+                    +7(988)523-90-09, +7(861)299-61-28
+                    south@pk-vortex.ru</p>
+            </div>
+        </div>
+        <button class="arrowTop"></button>
+    </div>
+</div>
+
+<footer class="d-flex">
+    <div class="container">
+        <div class="footerLink d-flex align-items-center justify-content-between">
+            <ul class="footerLinks">
+                <li><a class="links" href="/">Интернет-магазин</a></li>
+                <li><a class="links" href="/">Наши курсы</a></li>
+            </ul>
+            <ul class="footerLinks">
+                <li><a class="links" href="/">Контакты</a></li>
+                <li><a class="links" href="/">Новости</a></li>
+            </ul>
+
+            <ul class="footerLinks">
+                <li><a class="links" href="/">Вебинары</a></li>
+                <li><a class="links" href="/">Политика конфиденциальности</a></li>
+            </ul>
+
+
+            <div class="footerSocial">
+                <a class="footerSocialLinks" href="/">
+                    <img class="iconsImg" src="assets/img/instagram.svg" alt="">
+                </a>
+
+                <a class="footerSocialLinks" href="/">
+                    <img class="iconsImg" src="assets/img/facebook.svg" alt="">
+                </a>
+
+                <a class="footerSocialLinks" href="/">
+                    <img class="iconsImg" src="assets/img/vk.svg" alt="">
+                </a>
+
+                <a class="footerSocialLinks" href="/">
+                    <img class="iconsImg" src="assets/img/youtube.svg" alt="">
+                </a>
+            </div>
+
+            <div class="footerLast">
+                <a class="footerLastLink" href="/">© VORTEX </a>
+                <a class="footerLastLink" href="/">Разработано WMStusio</a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
